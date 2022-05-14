@@ -9,7 +9,7 @@ nav{
 }
 .header{
     color: white !important;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: sans-serif;
     align-self: center;
     display: flex;
     justify-content: space-around;
@@ -29,7 +29,7 @@ p1 :hover {
 }
 h1{
     color: white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 64px;
     left: 753px;
     position: absolute;
@@ -39,7 +39,7 @@ h1{
 }
 h2{
     color: white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 44px;
     left: 944px;
     position: absolute;
@@ -49,7 +49,7 @@ h2{
 }
 h3{
     color: white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
     left: 970px;
     position: absolute;
@@ -63,14 +63,14 @@ h3{
     z-index: 1;
   }
 h4 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: sans-serif;
     font-size: larger;
     display: flex;
     text-align: center;
     justify-content: center;
   }
 h5 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: sans-serif;
     font-size: large;
     text-align: center;
     display: flex;
@@ -80,12 +80,59 @@ h5 {
     z-index: 3;
 }
 .skillsinfo {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: large;
+    font-family: sans-serif;
+    font-size: larger;
     display: flex;
     text-align: center;
     justify-content: center;
     justify-content: space-around;
+}
+.modal1 {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+.modal1:target {
+	opacity:1;
+	pointer-events: auto;
+}
+.modal1 > div {
+    width: 600px;
+	position: relative;
+    margin: 10% auto;
+    border-radius: 5px;
+	background: -moz-linear-gradient(#fff, #999);
+	background: -o-linear-gradient(#fff, #999);
+}
+.close {
+	color: white;
+	line-height: 25px;
+	position: absolute;
+	right: 16px;
+	text-align: center;
+	top: 13px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+.close:hover { 
+    color: black;
+    background: white; 
 }
 .work {
     background-color: black;
@@ -93,20 +140,25 @@ h5 {
     width: max-content;
 }
 h6 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Times New Roman', Times, serif;
     color: white;
-    font-size: xx-large;
+    font-size: 40px;
 }
 h7 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: sans-serif;
     color: #C69F38;
-    font-size: larger;
+    font-size: 30px;
+}
+p2 {
+    font-family: sans-serif;
+    color: white;
+    font-size: 18px;
 }
 .Info1 {
     position: absolute;
     width: 519px;
     height: 300px;
-    margin-top: -550px;
+    margin-top: -600px;
     margin-left: 200px;
 }
 .Info2 {
@@ -114,14 +166,14 @@ h7 {
     text-align: right;
     width: 519px;
     height: 300px;
-    margin-top: -550px;
+    margin-top: -600px;
     margin-left: 700px;
 }
 .Info3 {
     position: absolute;
     width: 519px;
     height: 300px;
-    margin-top: -550px;
+    margin-top: -600px;
     margin-left: 200px;
 }
 .Info4 {
@@ -129,11 +181,11 @@ h7 {
     text-align: right;
     width: 519px;
     height: 300px;
-    margin-top: -550px;
+    margin-top: -600px;
     margin-left: 700px;
 }
 h8, h9 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: sans-serif;
     font-size: larger;
     display: flex;
     text-align: center;
@@ -148,7 +200,7 @@ footer{
 }
 .inline-block{
     color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: sans-serif;
     display: flex;
     justify-content: space-evenly;
     position: absolute;

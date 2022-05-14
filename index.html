@@ -13,40 +13,53 @@
                 <p1><a href="" class="headertext" style="color: white">About</a></p1>
                 <p1><a href="#work" class="headertext" style="color: white">Portfolio</a></p1>
                 <p1><a href="" class="headertext" style="color: white">Resume</a></p1>
-                <p1><a href="" class="headertext" style="color: white">Contact</a></p1>
+                <p1><a href="#openmodal4" class="headertext" style="color: white">Contact</a></p1>
             </div>
         </nav>
         <section class="Hero-Img"> <!-- Hero Section is coded below-->
             <img src="Images/Hero-Img.png" alt="Hero Image" width="1420" height="847"/>
             <h1>Dominique Bowling</h1>
-            <h2>UX Designer</h2>
-            <br>
-            <h3>Charlotte, NC</h3>
-            <br>
-            <br>
+            <h2>UX Designer</h2><br>
+            <h3>Charlotte, NC</h3><br><br>
         </section>
         <section class="quote">
             <h4>“A designer knows he has achieved perfection not when there is nothing left to add, but when there is nothing left to take away."</h4>
             <h4>Antoine de Saint-Exupéry</h4>
-            <a href=""><img class="button" id="button" src="Images/button.png" onmouseover="this.src='Images 3/morehover.png';" onmouseout="this.src='Images/button.png';"></a>
+            <a href=""><img class="button" id="button1" src="Images/button.png" onmouseover="this.src='Images 3/morehover.png';" onmouseout="this.src='Images/button.png';"></a>
         </section>
-        <section class="skills"> <!-- Skills Section is coded below-->
-            <h5>Skills</h5>
-            <img class="skillsback" src="Images 2/Skills background.png" alt="skills background" width="1420" height="80"/>
-            <br>
-            <br>
+        <section class="skills" id="skills"> <!-- Skills and Modal Section is coded below-->
+            <h5 style="font-family: sans-serif;" style="font-size: larger;">Skills</h5>
+            <img class="skillsback" src="Images 2/Skills background.png" alt="skills background" width="1420" height="80"/><br><br>
             <div class="skillsinfo">
                 <div class="uxskills">
-                    <a href=""><img class="uxskillsimg" id="uxskillsimg" src="Images 2/UX Skills.png" alt="UX Skills" width="312" height="396" onmouseover="this.src='Images 3/UXSkills_Hover.png';" onmouseout="this.src='Images 2/UX Skills.png';"></a>
+                    <a href="#openmodal1"><img class="uxskillsimg" id="uxskillsimg" src="Images 2/UX Skills.png" alt="UX Skills" width="312" height="396" onmouseover="this.src='Images 3/UXSkills_Hover.png';" onmouseout="this.src='Images 2/UX Skills.png';"></a>
                     <p style="margin-top: -75px;">View UX Skills</p>
                 </div>
+                <div id="openmodal1" class="modal1" >
+                    <div>
+                        <a href="#button1" title="Close" class="close">X</a>
+                        <img src="Images 3/UX_Skills.png" width="600" height="300"/>
+                    </div>
+                </div>
                 <div class="uiskills">
-                    <a href=""><img class="uiskillsimg" src="Images 2/UI Skills.png" alt="UI Skills" width="312" height="396" onmouseover="this.src='Images 3/UISkills_Hover.png';" onmouseout="this.src='Images 2/UI Skills.png';"></a>
+                    <a href="#openmodal2"><img class="uiskillsimg" id="uiskillsimg" src="Images 2/UI Skills.png" alt="UI Skills" width="312" height="396" onmouseover="this.src='Images 3/UISkills_Hover.png';" onmouseout="this.src='Images 2/UI Skills.png';"></a>
                     <p style="margin-top: -75px;">View UI Skills</p>
                 </div>
+                <div id="openmodal2" class="modal1" >
+                    <div>
+                        <a href="#button1" title="Close" class="close">X</a>
+                        <img src="Images 3/UI_Skills.png" width="600" height="300"/>
+                    </div>
+                </div>
                 <div class="feskills">
-                    <a href=""><img class="feskillsimg" src="Images 2/FE Skills.png" alt="FE Skills" width="312" height="396" onmouseover="this.src='Images 3/FESkills_Hover.png';" onmouseout="this.src='Images 2/FE Skills.png';"></a>
+                    <a href="#openmodal3"><img class="feskillsimg" src="Images 2/FE Skills.png" alt="FE Skills" width="312" height="396" onmouseover="this.src='Images 3/FESkills_Hover.png';" onmouseout="this.src='Images 2/FE Skills.png';"></a>
                     <p style="margin-top: -75px;">View FE Dev Skills</p>
+                </div>
+                <div id="openmodal3" class="modal1" >
+                    <div>
+                        <a href="#button1" title="Close" class="close">X</a>
+                        <img src="Images 3/FE_Skills.png" width="600" height="300"/>
+                    </div>
                 </div>
             </div>
         </section>
@@ -55,10 +68,8 @@
                 <img class="button1" src="Images 2/Travel Pay.png" alt="Travel Pay" width="1420" height="663"/>
                 <div class="Info1">
                     <h6>Travel Pay</h6>
-                    <h7>Mobile App</h7>
-                    <p style="color: white;" style="font-size: large;">An app concept to provide users with multiple options for financing a trip, including the ability to finance their vacation interest-free while providing different time frames for repayment. </p>
-                    <br>
-                    <br>
+                    <h7>Mobile App</h7><br><br>
+                    <p2>An app concept to provide users with multiple options for financing a trip, including the ability to finance their vacation interest-free while providing different time frames for repayment.</p2><br><br><br>
                     <img class="button2" src="Images 2/view button.png" onmouseover="this.src='Images 3/viewhover.png';" onmouseout="this.src='Images 2/view button.png';">
                 </div>
             </div>
@@ -66,10 +77,8 @@
                 <img src="Images 2/Pocket Stylist.png" alt="Pocket Stylist" width="1420" height="663"/>
                 <div class="Info2">
                      <h6>Pocket Stylist</h6>
-                     <h7>Mobile App</h7>
-                     <p style="color: white;" style="font-size: large;">An app concept that will provide users with clothing organization and recommendations to give them a sense of ease and confidence when selecting outfits for an occasion based on their current wardrobe. </p>
-                     <br>
-                     <br>
+                     <h7>Mobile App</h7><br><br>
+                     <p2>An app concept that will provide users with clothing organization and recommendations to give them a sense of ease and confidence when selecting outfits for an occasion based on their current wardrobe. </p2><br><br><br>
                      <img class="button2" src="Images 2/view button.png" onmouseover="this.src='Images 3/viewhover.png';" onmouseout="this.src='Images 2/view button.png';">
                 </div>
             </div>
@@ -77,10 +86,8 @@
                 <img src="Images 2/GIP.png" alt="Georgia Innocence Proj" width="1420" height="663"/>
                 <div class="Info3">
                     <h6>Georgia Innocence Project</h6>
-                    <h7>Responsive Website Redesign</h7>
-                    <p style="color: white;" style="font-size: large;">A website redesign that will look to provide a more compelling user experience for users who want to learn and contribute to the Georgia Innocence Project will provide more exposure for the brand and generate more assistance for the foundation. </p>
-                    <br>
-                    <br>
+                    <h7>Responsive Website Redesign</h7><br><br>
+                    <p2>A website redesign that will look to provide a more compelling user experience for users who want to learn and contribute to the Georgia Innocence Project will provide more exposure for the brand and generate more assistance for the foundation. </p2><br><br><br>
                     <img class="button2" src="Images 2/view button.png" onmouseover="this.src='Images 3/viewhover.png';" onmouseout="this.src='Images 2/view button.png';">
                 </div>
             </div>
@@ -88,21 +95,24 @@
                 <img src="Images 2/DHS.png" alt="Department of Homeland Security" width="1420" height="663"/>
                 <div class="Info4">
                     <h6>Department of Homeland Security</h6>
-                    <h7>Responsive Homepage Redesign</h7>
-                    <p style="color: white;" style="font-size: large;">A homepage redesign that will look to provide a more effective user experience for visitors who want to gain easy access to commonly sought-out information on the Department of Homeland Security website. </p>
-                    <br>
-                    <br>
+                    <h7>Responsive Homepage Redesign</h7><br><br>
+                    <p2>A homepage redesign that will look to provide a more effective user experience for visitors who want to gain easy access to commonly sought-out information on the Department of Homeland Security website. </p2><br><br><br>
                     <img class="button2" src="Images 2/view button.png" onmouseover="this.src='Images 3/viewhover.png';" onmouseout="this.src='Images 2/view button.png';">
                 </div>
             </div>
         </section>
         <br>
         <br>
-        <div class="Contact"> <!-- Contact Section is coded below-->
-            <h8>Want to collaborate on a project or talk about the design process?</h8>
-            <br>
+        <div class="Contact" id="contact"> <!-- Contact Section is coded below-->
+            <h8>Want to collaborate on a project or talk about the design process?</h8><br>
             <h9>Let's Connect!</h9>
-            <a href=""><img class="button" src="Images 2/contact me.png" onmouseover="this.src='Images 3/contacthover.png';" onmouseout="this.src='Images 2/contact me.png';"></a>
+            <a href="#openmodal4"><img class="button" id="button2" src="Images 2/contact me.png" onmouseover="this.src='Images 3/contacthover.png';" onmouseout="this.src='Images 2/contact me.png';"></a>
+            <div id="openmodal4" class="modal1" >
+                <div>
+                    <a href="#" title="Close" class="close">X</a>
+                    <img src="Images 3/Contact_Me_Page.png" width="600" height="500"/>
+                </div>
+            </div>
         </div>
         <br>
         <br>
